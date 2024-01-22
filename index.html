@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data=`
+        {"products":[
+{
+    "id":1,
+    "name":"iphoneX",
+    "desc":{"color":"black", "battery health":"100%"},
+    "stock":"available",
+    "colors":["black","purple"]
+},
+{
+    "id":2,
+    "name":"iphone11",
+    "desc":{"color":"black", "battery health":"100%"},
+    "stock":"available"
+}
+]}
+        `
+        console.log(JSON.parse(data).products[0])
+
+        students=[
+            {
+                name:"ayesha",
+                semester:"CPISM",
+            }
+        ]
+        console.log(JSON.stringify(students))
+    </script>
+</body>
+</html>

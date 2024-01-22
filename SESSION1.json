@@ -1,0 +1,15 @@
+{"products":[
+{
+    "id":1,
+    "name":"iphoneX",
+    "desc":{"color":"black", "battery health":"100%"},
+    "stock":"available",
+    "colors":["black","purple"]
+},
+{
+    "id":2,
+    "name":"iphone11",
+    "desc":{"color":"black", "battery health":"100%"},
+    "stock":"available"
+}
+]}
